@@ -21,5 +21,10 @@ public class mycalculatortest {
 		int result = calculator.multiply(2,10);
 		Assert.assertEquals(20, result);
 	}
+	public void divideTwoNumberstest() {
+		calculator calculator = new calculator();
+		int result = calculator.divide(10,2);
+		Assert.assertEquals(5, result);
+	}
 
 }
