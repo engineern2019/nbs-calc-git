@@ -16,5 +16,10 @@ public class mycalculatortest {
 		int result = calculator.subtract(10,5);
 		Assert.assertEquals(5, result);
 	}
+	public void multiplyTwoNumberstest() {
+		calculator calculator = new calculator();
+		int result = calculator.multiply(2,10);
+		Assert.assertEquals(20, result);
+	}
 
 }
